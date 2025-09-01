@@ -44,7 +44,7 @@ export const Cart = () => {
         <div className="grid gap-6 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
           {categories.map((item) => (
             <Link to={`/Products/category/${item}`}
-              className="bg-gray-100 dark:bg-gray-800 hover:bg-green-700 ease-in-out duration-300 rounded-xl flex flex-col justify-center items-center p-4 md:p-6"
+              className="bg-gray-100 dark:bg-gray-800 hover:bg-green-700 text-black hover:text-white ease-in-out duration-300 rounded-xl flex flex-col justify-center items-center p-4 md:p-6"
               key={item}
               href={item}
             >
